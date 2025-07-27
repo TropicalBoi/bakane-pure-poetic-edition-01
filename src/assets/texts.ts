@@ -1,0 +1,164 @@
+export type TextType = {
+  text: string;
+  time: string;
+};
+
+export const texts = [
+  {
+    text: "okay.",
+    time: "12:00",
+  },
+  {
+    text: "okay.",
+    time: "12:01",
+  },
+  {
+    text: "Test",
+    time: "12:02",
+  },
+  {
+    text: "Hey, this is your captain speaking.",
+    time: "12:03",
+  },
+  {
+    text: "kjkjl",
+    time: "12:04",
+  },
+  {
+    text: "jhghg",
+    time: "12:05",
+  },
+  {
+    text: "hi",
+    time: "12:06",
+  },
+  {
+    text: "how are you",
+    time: "12:07",
+  },
+  {
+    text: "are you there",
+    time: "12:08",
+  },
+  {
+    text: "...",
+    time: "12:09",
+  },
+  {
+    text: "hey",
+    time: "12:10",
+  },
+  {
+    text: "I kinda miss you a bit and I wanna see you na",
+    time: "12:11",
+  },
+  {
+    text: "heyy",
+    time: "12:12",
+  },
+  {
+    text: "really",
+    time: "12:13",
+  },
+  {
+    text: "jerk",
+    time: "12:14",
+  },
+  {
+    text: "text me back bih",
+    time: "12:15",
+  },
+  {
+    text: "still miss you xx",
+    time: "12:16",
+  },
+  {
+    text: "such a simp ;(",
+    time: "12:17",
+  },
+  {
+    text: "blockedddd",
+    time: "12:18",
+  },
+  {
+    text: "hello",
+    time: "12:19",
+  },
+  {
+    text: "how are you",
+    time: "12:20",
+  },
+  {
+    text: "hey",
+    time: "12:21",
+  },
+  {
+    text: "where are you now",
+    time: "12:21",
+  },
+  {
+    text: "will you marry me",
+    time: "12:22",
+  },
+  {
+    text: "ok",
+    time: "12:23",
+  },
+  {
+    text: "good bye",
+    time: "12:24",
+  },
+  {
+    text: "miss u please answer :0",
+    time: "12:25",
+  },
+  {
+    text: "hello",
+    time: "12:26",
+  },
+  {
+    text: "no",
+    time: "12:27",
+  },
+  {
+    text: "how are  today",
+    time: "12:28",
+  },
+  {
+    text: "sawetdee kub",
+    time: "12:29",
+  },
+  {
+    text: "tum arai u",
+    time: "12:30",
+  },
+  {
+    text: "tob noi kub",
+    time: "12:31",
+  },
+  { text: "T_T", time: "12:32" },
+  {
+    text: "mai tong bin hai soung ysng ksi kao",
+    time: "12:33",
+  },
+  {
+    text: "mama, i'm on a bill",
+    time: "12:34",
+  },
+  {
+    text: "sybau...im crying...",
+    time: "12:35",
+  },
+  {
+    text: "type shit",
+    time: "12:36",
+  },
+  {
+    text: "shit",
+    time: "12:37",
+  },
+  {
+    text: "ouo hola",
+    time: "12:38",
+  },
+];

@@ -1,0 +1,82 @@
+/* Block that transitions from full to compact */
+.main-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  transition: height 2s ease, gap 2s ease, padding 2s ease;
+  height: 100%; /* Default full height */
+  gap: 1rem; /* Default gap */
+  margin: 60px;
+}
+
+.main-block.full {
+  height: 100%;
+  gap: 0.5rem;
+}
+
+.main-block.fit {
+  height: 10%;
+  gap: 0.5rem;
+}
+
+/* Heading animation: font-size + transform */
+.heading {
+  font-family: "Sixtyfour", sans-serif;
+  transition: font-size 2s ease, transform 2s ease;
+  font-weight: bold;
+}
+
+.heading.large {
+  font-size: 72px;
+}
+
+.heading.small {
+  font-size: 36px;
+}
+
+/* Subtitle and message line */
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  transition: font-size 2s ease, opacity 0.3s ease 0.2s;
+}
+
+.subtitle.small {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+/* Message entrance */
+.message {
+  transition: transform 2s ease, opacity 2s ease;
+}
+
+.message.enter {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.message.exit {
+  opacity: 0;
+  transform: scaleY(0);
+}
+
+@media (max-width: 640px) {
+  .heading.large {
+    font-size: 36px;
+  }
+
+  .heading.small {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .subtitle.small {
+    font-size: 0.875rem; /* ~14px */
+  }
+}
