@@ -28,10 +28,6 @@
   font-weight: bold;
 }
 
-.heading.large {
-  font-size: 72px;
-}
-
 .heading.small {
   font-size: 36px;
 }
@@ -64,16 +60,8 @@
 }
 
 @media (max-width: 640px) {
-  .heading.large {
-    font-size: 36px;
-  }
-
   .heading.small {
     font-size: 24px;
-  }
-
-  .subtitle {
-    font-size: 1rem;
   }
 
   .subtitle.small {

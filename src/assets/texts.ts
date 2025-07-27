@@ -6,35 +6,35 @@ export type TextType = {
 export const texts = [
   {
     text: "okay.",
-    time: "12:00",
+    time: "03:04",
   },
   {
     text: "okay.",
-    time: "12:01",
+    time: "11:38",
   },
   {
     text: "Test",
-    time: "12:02",
+    time: "11:41",
   },
   {
     text: "Hey, this is your captain speaking.",
-    time: "12:03",
+    time: "11:41",
   },
   {
     text: "kjkjl",
-    time: "12:04",
+    time: "14:50",
   },
   {
     text: "jhghg",
-    time: "12:05",
+    time: "15:36",
   },
   {
     text: "hi",
-    time: "12:06",
+    time: "15:46",
   },
   {
     text: "how are you",
-    time: "12:07",
+    time: "15:50",
   },
   {
     text: "are you there",
