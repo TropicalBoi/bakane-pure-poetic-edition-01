@@ -41,6 +41,7 @@
   font-size: 1.25rem;
   font-weight: 600;
   transition: font-size 2s ease, opacity 0.3s ease 0.2s;
+  text-align: center;
 }
 
 .subtitle.small {
@@ -73,7 +74,7 @@
   }
 
   .subtitle {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 
   .subtitle.small {

@@ -34,7 +34,7 @@
 
 /* Subtitle and message line */
 .subtitle {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   transition: font-size 2s ease, opacity 0.3s ease 0.2s;
 }

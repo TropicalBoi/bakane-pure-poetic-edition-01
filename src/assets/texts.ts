@@ -38,47 +38,47 @@ export const texts = [
   },
   {
     text: "are you there",
-    time: "12:08",
+    time: "15:50",
   },
   {
     text: "...",
-    time: "12:09",
+    time: "15:50",
   },
   {
     text: "hey",
-    time: "12:10",
+    time: "15:51",
   },
   {
     text: "I kinda miss you a bit and I wanna see you na",
-    time: "12:11",
+    time: "15:53",
   },
   {
     text: "heyy",
-    time: "12:12",
+    time: "15:53",
   },
   {
     text: "really",
-    time: "12:13",
+    time: "15:53",
   },
   {
     text: "jerk",
-    time: "12:14",
+    time: "16:07",
   },
   {
     text: "text me back bih",
-    time: "12:15",
+    time: "16:07",
   },
   {
     text: "still miss you xx",
-    time: "12:16",
+    time: "16:08",
   },
   {
     text: "such a simp ;(",
-    time: "12:17",
+    time: "16:09",
   },
   {
     text: "blockedddd",
-    time: "12:18",
+    time: "16:10",
   },
   {
     text: "hello",
