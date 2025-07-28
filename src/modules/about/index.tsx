@@ -61,7 +61,7 @@ const About = ({ setPage }: AboutProps) => {
         <p className="subtitle">✨𝓹𝓾𝓻𝓮 𝓹𝓸𝓮𝓽𝓲𝓬 𝓮𝓭𝓲𝓽𝓲𝓸𝓷✨</p>
         <button onClick={() => setPage("")}>{`< Back to Home`}</button>
       </div>
-      <div className="w-full px-10 lg:px-40 flex flex-col items-center gap-4">
+      <div className="w-full px-10 lg:px-40 flex flex-col items-center gap-4 pb-10">
         <TypeAnimation
           sequence={[aboutText1, handleAddStep]}
           wrapper="span"
@@ -138,7 +138,7 @@ const About = ({ setPage }: AboutProps) => {
             <a
               href="https://www.instagram.com/t.ropicalboi/"
               target="_blank"
-              className="hover:underline"
+              className="hover:underline text-center"
             >
               About the artist: @t.ropicalboi
             </a>
