@@ -1,69 +1,9 @@
-# React + TypeScript + Vite
+# ♥ BAKA-NE ♥: A dating simulator of a one-sided lover
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web-based edition of an art work with the same name.
 
-Currently, two official plugins are available:
+Check it out at: https://bakane-pure-poetic-edition-01.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨𝓹𝓾𝓻𝓮 𝓹𝓸𝓮𝓽𝓲𝓬 𝓮𝓭𝓲𝓽𝓲𝓸𝓷✨
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+a collection of unread love letters from players who never got a reply. This web-based edition of BAKA-NE gathers every message sent by players from the physical edition who tried, hoped, waited — and leaves them on display like petals in a digital shrine. Each message appears one by one, mimicking the rhythm of a real chat. But there’s no one typing back. No reply bubble. Just the voices of one-sided lovers, layered endlessly across time. It’s no longer a game. It’s a loop. A shared soliloquy. A collective heartbreak. A gallery of what we say when no one’s listening. And maybe that’s the most honest version of love we’ve ever known.
